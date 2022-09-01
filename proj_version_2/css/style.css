@@ -1,0 +1,27 @@
+/* Generics */
+main {
+  background-color: #1E2D3B;
+  padding: 50px 0;
+}
+body {
+  background-color: #000;
+}
+
+/* Header */
+header {
+  background-color: #2D3A46;
+  height: 70px;
+}
+
+/* Cd Card */
+.cd-card {
+  padding: 15px;
+  background-color: #2D3A46;
+}
+.cd-card .cd-info .cd-title{
+  text-transform: capitalize;
+  color: white;
+}
+.cd-card .cd-info .cd-moreinfo {
+  color: gray;
+}
