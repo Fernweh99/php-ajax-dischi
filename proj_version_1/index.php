@@ -22,7 +22,7 @@
     </div>
   </header>
   <main>
-    <section class="cd-card-">
+    <section id="cd-cards">
       <div class="container">
         <div class="row g-5 row-cols-5">
           <?php foreach ($discs as $disc) : ?>
