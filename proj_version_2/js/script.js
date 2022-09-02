@@ -16,13 +16,13 @@ const app = new Vue({
   },
   methods: {
     fetchDiscs(){
-      axios.get(`http://localhost:8888/php-ajax-dischi/api/dischi?genre=${this.genre}`).then(res => {
+      axios.get('../../api/dischi').then(res => {
         this.discs = res.data;
         this.filteredDiscs = this.discs
       });
     },
     fetchDiscsGenre() {
-      axios.get(`http://localhost:8888/php-ajax-dischi/api/dischi?genre=${this.genre}`).then(res => {
+      axios.get(`../../api/dischi?genre=${this.genre}`).then(res => {
         this.filteredDiscs = res.data;
       });
     },
